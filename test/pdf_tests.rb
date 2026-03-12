@@ -3230,6 +3230,37 @@ class PdfTest < Minitest::Test
     assert(response, 'Failed to convert PDF to Moby Xml.')
   end
 
+  def test_get_pdf_in_storage_to_aps
+    file_name = '5pages.pdf'
+    upload_file(file_name)
+    opts = {
+      folder: @temp_folder
+    }
+    response = @pdf_api.get_pdf_in_storage_to_aps(file_name, opts)
+    assert(response, 'Failed to convert PDF to Aps.')
+  end
+
+  def test_put_pdf_in_storage_to_aps
+    file_name = '5pages.pdf'
+    upload_file(file_name)
+    res_file = 'result.xml'
+    opts = {
+      folder: @temp_folder
+    }
+    response = @pdf_api.put_pdf_in_storage_to_aps(file_name, @temp_folder + '/' + res_file, opts)
+    assert(response, 'Failed to convert PDF to Aps.')
+  end
+
+  def test_put_pdf_in_request_to_aps
+    file_name = '5pages.pdf'
+    res_file = 'result.xml'
+    opts = {
+      file: ::File.open(@test_data_folder + file_name, 'r') { |io| io.read(io.size) }
+    }
+    response = @pdf_api.put_pdf_in_request_to_aps(@temp_folder + '/' + res_file, opts)
+    assert(response, 'Failed to convert PDF to Aps.')
+  end
+
   def test_get_xfa_pdf_in_storage_to_acro_form
     file_name = 'PdfWithXfaForm.pdf'
     upload_file(file_name)
@@ -3571,6 +3602,28 @@ class PdfTest < Minitest::Test
     }
     response = @pdf_api.put_xml_in_storage_to_pdf(result_name, src_path, opts)
     assert(response, 'Failed to convert xml to pdf.')
+  end
+
+  def test_get_aps_in_storage_to_pdf
+    file_name = '5pages.aps'
+    upload_file(file_name)
+
+    src_path = @temp_folder + '/' + file_name
+    response = @pdf_api.get_aps_in_storage_to_pdf(src_path)
+    assert(response, 'Failed to convert aps to pdf.')
+  end
+
+  def test_put_aps_in_storage_to_pdf
+    file_name = '5pages.aps'
+    upload_file(file_name)
+    result_name = 'fromAps.pdf'
+
+    src_path = @temp_folder + '/' + file_name
+    opts = {
+      dst_folder: @temp_folder
+    }
+    response = @pdf_api.put_aps_in_storage_to_pdf(result_name, src_path, opts)
+    assert(response, 'Failed to convert aps to pdf.')
   end
 
   def test_get_ps_in_storage_to_pdf
