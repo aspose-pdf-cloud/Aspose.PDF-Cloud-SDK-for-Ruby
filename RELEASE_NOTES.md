@@ -1,6 +1,6 @@
 # Aspose.PDF Cloud Ruby SDK
 
-## 📦 Version 26.3  
+## 📦 Version 26.6
 
 ---
 
