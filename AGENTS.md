@@ -1,7 +1,7 @@
 # Aspose.PDF Cloud SDK for Ruby — Agent Analysis
 
 > **Repository:** [aspose-pdf-cloud/aspose-pdf-cloud-ruby](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-ruby)  
-> **Version:** 26.4.0 | **Gem:** `aspose_pdf_cloud`  
+> **Version:** 26.7.0 | **Gem:** `aspose_pdf_cloud`  
 > **License:** MIT | **Ruby Version:** >= 2.6  
 > **API Version:** v3.0
 
@@ -67,7 +67,7 @@ aspose-pdf-cloud-ruby/
 - **Constructor-based Auth**: `PdfApi.new(client_id, client_secret, host=nil, self_host=false)` — auth credentials passed directly to the constructor
 - **Options Hash pattern**: Optional parameters passed as a Hash (`opts = { :folder => 'tempFolder' }`) — Ruby convention
 - **Snake_case API**: All API methods and parameters use snake_case naming: `get_page_annotations`, `post_page_circle_annotations`
-- **Custom headers**: `x-aspose-client: ruby sdk`, `x-aspose-client-version: 26.4.0`
+- **Custom headers**: `x-aspose-client: ruby sdk`, `x-aspose-client-version: 26.7.0`
 
 ---
 
@@ -330,7 +330,7 @@ The SDK is **auto-generated** from the OpenAPI specification. Evidence:
 | **Self-host support** | `PdfApi.new('', '', 'SELFHOST_URL', true)` skips OAuth2 authentication |
 | **Faraday HTTP client** | Uses `faraday >= 1.9.3` with `faraday-multipart` for HTTP requests |
 | **Constructor auth** | `PdfApi.new(client_id, client_secret, host=nil, self_host=false)` |
-| **Custom headers** | `x-aspose-client: ruby sdk`, `x-aspose-client-version: 26.4.0` |
+| **Custom headers** | `x-aspose-client: ruby sdk`, `x-aspose-client-version: 26.7.0` |
 
 ### 7.3 Configuration Pattern
 
@@ -387,14 +387,14 @@ end
 Via Gemfile:
 
 ```ruby
-gem 'aspose_pdf_cloud', '~> 26.4.0'
+gem 'aspose_pdf_cloud', '~> 26.7.0'
 ```
 
 Or build from source:
 
 ```bash
 gem build aspose_pdf_cloud.gemspec
-gem install ./aspose_pdf_cloud-26.4.0.gem
+gem install ./aspose_pdf_cloud-26.7.0.gem
 ```
 
 ---
