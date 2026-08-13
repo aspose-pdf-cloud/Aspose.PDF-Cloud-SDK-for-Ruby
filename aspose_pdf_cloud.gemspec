@@ -38,6 +38,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'faraday', '>= 1.9.3'
   s.add_runtime_dependency 'faraday-multipart'
+  s.add_runtime_dependency 'marcel', '>= 1.0.0'
 
   s.files         = Dir['lib/**/*.rb']
   s.require_paths = ['lib']
