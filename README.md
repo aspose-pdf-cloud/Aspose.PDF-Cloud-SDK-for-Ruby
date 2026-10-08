@@ -42,15 +42,15 @@ gem build aspose_pdf_cloud.gemspec
 Then either install the gem locally:
 
 ```shell
-gem install ./aspose_pdf_cloud-26.7.0.gem
+gem install ./aspose_pdf_cloud-26.9.0.gem
 ```
-(for development, run `gem install --dev ./aspose_pdf_cloud-26.7.0.gem` to install the development dependencies)
+(for development, run `gem install --dev ./aspose_pdf_cloud-26.9.0.gem` to install the development dependencies)
 
 or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
 
 Finally add this to the Gemfile:
 
-    gem 'aspose_pdf_cloud', '~> 26.7.0'
+    gem 'aspose_pdf_cloud', '~> 26.9.0'
 
 ### Install from Git
 
