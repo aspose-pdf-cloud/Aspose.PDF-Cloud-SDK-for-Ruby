@@ -7108,7 +7108,7 @@ Name | Type | Description  | Notes
 
 
 # **post_split_range_pdf_document**
-> SplitResultResponse post_split_range_pdf_document(name, opts)
+> SplitResultResponse post_split_range_pdf_document(name, options, opts)
 
 Split document into ranges.
 
@@ -7117,7 +7117,7 @@ Split document into ranges.
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String**| The document name. | 
- **options** | [**SplitRangePdfOptions**](SplitRangePdfOptions.md)| The splitting options. | [optional] 
+ **options** | [**SplitRangePdfOptions**](SplitRangePdfOptions.md)| The splitting options. | 
  **storage** | **String**| The document storage. | [optional] 
  **folder** | **String**| The document folder. | [optional] 
  **password** | **String**| Base64 encoded password. | [optional] 

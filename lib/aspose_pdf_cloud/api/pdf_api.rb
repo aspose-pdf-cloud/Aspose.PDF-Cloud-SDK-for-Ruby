@@ -20934,19 +20934,19 @@ module AsposePdfCloud
     # Split document into ranges.
     # 
     # @param name The document name.
+    # @param options The splitting options.
     # @param [Hash] opts the optional parameters
-    # @option opts [SplitRangePdfOptions] :options The splitting options.
     # @option opts [String] :storage The document storage.
     # @option opts [String] :folder The document folder.
     # @option opts [String] :password Base64 encoded password.
     # @return [SplitResultResponse]
-    def post_split_range_pdf_document(name, opts = {})
+    def post_split_range_pdf_document(name, options, opts = {})
       @api_client.request_token_if_needed
-      data, _status_code, _headers = post_split_range_pdf_document_with_http_info(name, opts)
+      data, _status_code, _headers = post_split_range_pdf_document_with_http_info(name, options, opts)
       rescue ApiError => error
         if error.code == 401
           @api_client.request_token_if_needed
-          data, _status_code, _headers = post_split_range_pdf_document_with_http_info(name, opts)
+          data, _status_code, _headers = post_split_range_pdf_document_with_http_info(name, options, opts)
         else
           raise
         end
@@ -20956,19 +20956,23 @@ module AsposePdfCloud
     # Split document into ranges.
     # 
     # @param name The document name.
+    # @param options The splitting options.
     # @param [Hash] opts the optional parameters
-    # @option opts [SplitRangePdfOptions] :options The splitting options.
     # @option opts [String] :storage The document storage.
     # @option opts [String] :folder The document folder.
     # @option opts [String] :password Base64 encoded password.
     # @return [Array<(SplitResultResponse, Fixnum, Hash)>] SplitResultResponse data, response status code and response headers
-    def post_split_range_pdf_document_with_http_info(name, opts = {})
+    def post_split_range_pdf_document_with_http_info(name, options, opts = {})
       if @api_client.config.debugging
         @api_client.config.logger.debug "Calling API: PdfApi.post_split_range_pdf_document ..."
       end
       # verify the required parameter 'name' is set
       if @api_client.config.client_side_validation && name.nil?
         fail ArgumentError, "Missing the required parameter 'name' when calling PdfApi.post_split_range_pdf_document"
+      end
+      # verify the required parameter 'options' is set
+      if @api_client.config.client_side_validation && options.nil?
+        fail ArgumentError, "Missing the required parameter 'options' when calling PdfApi.post_split_range_pdf_document"
       end
       # resource path
       local_var_path = "/pdf/{name}/splitrangepdf".sub('{' + 'name' + '}', name.to_s)
@@ -20992,7 +20996,7 @@ module AsposePdfCloud
       post_body = nil
 
       # http body (model)
-      post_body = @api_client.object_to_http_body(opts[:'options'])
+      post_body = @api_client.object_to_http_body(options)
       auth_names = ['JWT']
       data, status_code, headers = @api_client.call_api(:POST, local_var_path,
         :header_params => header_params,
