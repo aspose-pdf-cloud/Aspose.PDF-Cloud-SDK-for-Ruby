@@ -2037,7 +2037,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert APS file (located on storage) to PDF format and return resulting file in response. 
+    # Convert APS file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.xps)
     # @param [Hash] opts the optional parameters
@@ -2056,7 +2056,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert APS file (located on storage) to PDF format and return resulting file in response. 
+    # Convert APS file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.xps)
     # @param [Hash] opts the optional parameters
@@ -5491,7 +5491,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
+    # Convert EPUB file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.epub)
     # @param [Hash] opts the optional parameters
@@ -5510,7 +5510,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert EPUB file (located on storage) to PDF format and return resulting file in response. 
+    # Convert EPUB file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.epub)
     # @param [Hash] opts the optional parameters
@@ -6377,7 +6377,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert HTML file (located on storage) to PDF format and return resulting file in response. 
+    # Convert HTML file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.zip)
     # @param [Hash] opts the optional parameters
@@ -6404,7 +6404,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert HTML file (located on storage) to PDF format and return resulting file in response. 
+    # Convert HTML file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.zip)
     # @param [Hash] opts the optional parameters
@@ -7202,7 +7202,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Import from XML file (located on storage) to PDF format and return resulting file in response. 
+    # Import from XML file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param name The document name.
     # @param xml_file_path Full source filename (ex. /folder1/folder2/template.xml)
@@ -7223,7 +7223,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Import from XML file (located on storage) to PDF format and return resulting file in response. 
+    # Import from XML file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param name The document name.
     # @param xml_file_path Full source filename (ex. /folder1/folder2/template.xml)
@@ -7593,7 +7593,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert MD file (located on storage) to PDF format and return resulting file in response. 
+    # Convert MD file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.md)
     # @param [Hash] opts the optional parameters
@@ -7612,7 +7612,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert MD file (located on storage) to PDF format and return resulting file in response. 
+    # Convert MD file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.md)
     # @param [Hash] opts the optional parameters
@@ -7663,7 +7663,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert MHT file (located on storage) to PDF format and return resulting file in response. 
+    # Convert MHT file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.mht)
     # @param [Hash] opts the optional parameters
@@ -7688,7 +7688,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert MHT file (located on storage) to PDF format and return resulting file in response. 
+    # Convert MHT file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.mht)
     # @param [Hash] opts the optional parameters
@@ -11043,7 +11043,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert PCL file (located on storage) to PDF format and return resulting file in response. 
+    # Convert PCL file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.pcl)
     # @param [Hash] opts the optional parameters
@@ -11062,7 +11062,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert PCL file (located on storage) to PDF format and return resulting file in response. 
+    # Convert PCL file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.pcl)
     # @param [Hash] opts the optional parameters
@@ -11113,7 +11113,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
+    # Convert PDFA file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.pdf)
     # @param [Hash] opts the optional parameters
@@ -11133,7 +11133,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert PDFA file (located on storage) to PDF format and return resulting file in response. 
+    # Convert PDFA file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.pdf)
     # @param [Hash] opts the optional parameters
@@ -12763,7 +12763,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert PS file (located on storage) to PDF format and return resulting file in response. 
+    # Convert PS file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.ps)
     # @param [Hash] opts the optional parameters
@@ -12782,7 +12782,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert PS file (located on storage) to PDF format and return resulting file in response. 
+    # Convert PS file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.ps)
     # @param [Hash] opts the optional parameters
@@ -13769,7 +13769,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert SVG file (located on storage) to PDF format and return resulting file in response. 
+    # Convert SVG file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.svg)
     # @param [Hash] opts the optional parameters
@@ -13796,7 +13796,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert SVG file (located on storage) to PDF format and return resulting file in response. 
+    # Convert SVG file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.svg)
     # @param [Hash] opts the optional parameters
@@ -13941,7 +13941,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert TeX file (located on storage) to PDF format and return resulting file in response. 
+    # Convert TeX file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.tex)
     # @param [Hash] opts the optional parameters
@@ -13960,7 +13960,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert TeX file (located on storage) to PDF format and return resulting file in response. 
+    # Convert TeX file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.tex)
     # @param [Hash] opts the optional parameters
@@ -14433,7 +14433,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert web page to PDF format and return resulting file in response. 
+    # Convert web page to PDF format and return resulting file in response.
     # 
     # @param url Source url
     # @param [Hash] opts the optional parameters
@@ -14459,7 +14459,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert web page to PDF format and return resulting file in response. 
+    # Convert web page to PDF format and return resulting file in response.
     # 
     # @param url Source url
     # @param [Hash] opts the optional parameters
@@ -14668,7 +14668,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert XML file (located on storage) to PDF format and return resulting file in response. 
+    # Convert XML file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.xml)
     # @param [Hash] opts the optional parameters
@@ -14688,7 +14688,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert XML file (located on storage) to PDF format and return resulting file in response. 
+    # Convert XML file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.xml)
     # @param [Hash] opts the optional parameters
@@ -14891,7 +14891,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert XPS file (located on storage) to PDF format and return resulting file in response. 
+    # Convert XPS file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.xps)
     # @param [Hash] opts the optional parameters
@@ -14910,7 +14910,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert XPS file (located on storage) to PDF format and return resulting file in response. 
+    # Convert XPS file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.xps)
     # @param [Hash] opts the optional parameters
@@ -14961,7 +14961,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
+    # Convert XslFo file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.xslfo)
     # @param [Hash] opts the optional parameters
@@ -14980,7 +14980,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert XslFo file (located on storage) to PDF format and return resulting file in response. 
+    # Convert XslFo file (located on storage) to PDF format and return resulting file in response.
     # 
     # @param src_path Full source filename (ex. /folder1/folder2/template.xslfo)
     # @param [Hash] opts the optional parameters
@@ -17356,7 +17356,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
+    # Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.
     # 
     # @param [Hash] opts the optional parameters
     # @option opts [String] :html_file_name Name of HTML file in ZIP.
@@ -17381,7 +17381,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert HTML file (zip archive in request content) to PDF format and return resulting file in response. 
+    # Convert HTML file (zip archive in request content) to PDF format and return resulting file in response.
     # 
     # @param [Hash] opts the optional parameters
     # @option opts [String] :html_file_name Name of HTML file in ZIP.
@@ -21404,7 +21404,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert APS file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.xps)
@@ -21425,7 +21425,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert APS file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert APS file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.xps)
@@ -22427,7 +22427,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.epub)
@@ -22448,7 +22448,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert EPUB file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert EPUB file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.epub)
@@ -23145,7 +23145,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert HTML file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.zip)
@@ -23174,7 +23174,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert HTML file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert HTML file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.zip)
@@ -23596,7 +23596,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert image file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert image file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param image_templates ImageTemplatesRequestImage templates
@@ -23617,7 +23617,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert image file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert image file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param image_templates ImageTemplatesRequestImage templates
@@ -24590,7 +24590,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert MD file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.md)
@@ -24611,7 +24611,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert MD file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert MD file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.md)
@@ -24746,7 +24746,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert MHT file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.mht)
@@ -24773,7 +24773,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert MHT file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert MHT file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.mht)
@@ -25573,7 +25573,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert PCL file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.pcl)
@@ -25594,7 +25594,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert PCL file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert PCL file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.pcl)
@@ -25652,7 +25652,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.pdf)
@@ -25674,7 +25674,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert PDFA file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert PDFA file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.pdf)
@@ -28734,7 +28734,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert PS file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.ps)
@@ -28755,7 +28755,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert PS file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert PS file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.ps)
@@ -30152,7 +30152,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert SVG file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.svg)
@@ -30181,7 +30181,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert SVG file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert SVG file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.svg)
@@ -30338,7 +30338,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert TeX file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.tex)
@@ -30359,7 +30359,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert TeX file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert TeX file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.tex)
@@ -30826,7 +30826,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert web page to PDF format and upload resulting file to storage. 
+    # Convert web page to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param url Source url
@@ -30854,7 +30854,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert web page to PDF format and upload resulting file to storage. 
+    # Convert web page to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param url Source url
@@ -31079,7 +31079,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert XML file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.xml)
@@ -31101,7 +31101,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert XML file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert XML file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.xml)
@@ -31161,7 +31161,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert XPS file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.xps)
@@ -31182,7 +31182,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert XPS file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert XPS file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.xps)
@@ -31240,7 +31240,7 @@ module AsposePdfCloud
       return data, status_code, headers
     end
 
-    # Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.xpsfo)
@@ -31261,7 +31261,7 @@ module AsposePdfCloud
       return data
     end
 
-    # Convert XslFo file (located on storage) to PDF format and upload resulting file to storage. 
+    # Convert XslFo file (located on storage) to PDF format and upload resulting file to storage.
     # 
     # @param name The document name.
     # @param src_path Full source filename (ex. /folder1/folder2/template.xpsfo)
