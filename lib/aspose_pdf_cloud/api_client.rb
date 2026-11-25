@@ -26,7 +26,6 @@ require 'tempfile'
 require 'uri'
 require 'faraday'
 require 'faraday/multipart'
-require 'marcel'
 require_relative 'version'
 require_relative 'api_error'
 
@@ -308,7 +307,7 @@ module AsposePdfCloud
         form_params.each do |key, value|
           case value
           when ::File
-            data[key] = Faraday::UploadIO.new(value.path, Marcel::MimeType.for(value, name: File.basename(value.path)), key)
+            data[key] = Faraday::UploadIO.new(value.path, MimeMagic.by_magic(value).to_s, key)
           when ::Array, nil
             data[key] = value
           else
